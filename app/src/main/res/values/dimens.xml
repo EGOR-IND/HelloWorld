@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--SP dimens-->
+    <dimen name="value_17sp">17sp</dimen>
+    <dimen name="value_25sp">25sp</dimen>
+
+    <!--DP dimens-->
+    <dimen name="value_20dp">20dp</dimen>
+    <dimen name="value_200dp">200dp</dimen>
+</resources>

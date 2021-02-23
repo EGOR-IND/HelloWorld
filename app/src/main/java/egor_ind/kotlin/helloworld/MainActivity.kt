@@ -6,7 +6,6 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
-import android.widget.Toast
 import com.google.android.material.snackbar.Snackbar
 
 class MainActivity : AppCompatActivity() {
@@ -23,7 +22,7 @@ class MainActivity : AppCompatActivity() {
         val button: Button = findViewById(R.id.sayHelloBtn)
         button.setOnClickListener {
             if (editText.text.isNotEmpty()){
-                textView.setText("Hello ${editText.text}")
+                textView.text = "Hello ${editText.text}"
             } else {
                 Snackbar.make(findViewById(android.R.id.content), "Enter Name in the field given", Snackbar.LENGTH_LONG).show()
 //                Toast.makeText(this@MainActivity, "Enter Name in the field given", Toast.LENGTH_LONG).show()
